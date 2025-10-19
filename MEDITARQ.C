@@ -720,7 +720,9 @@ void faz_janela_nome ()
 
 		outtextxy (POS_XT_RET+5,POS_YT_RET+6,&msg_gr_arq [0]);
 		outtextxy (POS_XT_RET+5,POS_YT_RET+24,&msg_nome_arq [0]);
+		esconde_mouse ();
 		le_nome ();
+		aparece_mouse ();
 		putimage (POS_XT_RET,POS_YT_RET,area,COPY_PUT);
 		free (area);
 }

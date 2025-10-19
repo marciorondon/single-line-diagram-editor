@@ -99,7 +99,7 @@ void tela_inicial ()
 	setlinestyle (SOLID_LINE,0,NORM_WIDTH);
 	outtextxy (150,295,"Autores: Marcio Egydio S. Rondon - DTAO");
 	outtextxy (222,305,"Charles de Capdeville - DTAO");
-	outtextxy (2,340,"Versao 4.1");
+	outtextxy (2,340,"Versao 4.2");
 	outtextxy (350,340,"Para iniciar, digite qualquer tecla.");
 	getch ();
 }
