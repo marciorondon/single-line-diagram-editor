@@ -1,4 +1,4 @@
-# One-Line Diagram Editor for Electrical Substations
+# Single-Line Diagram Editor for Electrical Substations
 
 This project is a **graphical editor** designed to create and represent the **single-line diagram** of an electrical substation.
 
