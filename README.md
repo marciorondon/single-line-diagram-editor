@@ -1,22 +1,28 @@
+# One-Line Diagram Editor for Electrical Substations
 
-# Editor Gráfico de Diagramas Unifilares para Subestações Elétricas
+This project is a **graphical editor** designed to create and represent the **single-line diagram** of an electrical substation.
 
-## Português (Original)
+## Overview
 
-Este projeto consiste em um editor gráfico para a criação de diagramas unifilares de subestações de energia elétrica. Seu objetivo principal é permitir que operadores visualizem o estado atual de disjuntores e chaves seccionadoras, facilitando a tomada de decisão durante a operação do sistema elétrico.
+The purpose of this software is to enable **operators** to **visualize** the current status of **circuit breakers** and **disconnect switches**, assisting them in making the best decisions during the operation of the electrical system.
 
-O editor gera diagramas que são utilizados por um software complementar (visualizador gráfico) para monitoramento. Esta ferramenta foi empregada no Centro de Operação Regional e no Centro de Operação do Sistema da Light Serviços de Eletricidade S.A. (empresa de distribuição de energia do Rio de Janeiro) até a implantação do primeiro sistema SCADA da companhia.
+This repository contains the **source code of the graphical editor** used to design the diagrams.  
+The diagrams produced by this editor are later used by another program — a **graphical viewer** — for visualization purposes.
 
-Desenvolvido na década de 1990 em Linguagem C (compilado com Borland Turbo C), o software implementava uma interface gráfica em ambiente MS-DOS, refletindo as tecnologias da época.
+## Background
 
----
+This software was used at the **Regional Operations Center** and the **System Operations Center** of **Light Serviços de Eletricidade S.A.**, the electric power distribution company of the state of Rio de Janeiro, **until the implementation of the company’s first SCADA system**.
 
-## English (Translated)
+It was developed in the **1990s**, written in the **C programming language** using **Borland Turbo C**, and implemented a **graphical interface under MS-DOS**.
 
-# Single-Line Diagram Editor for Electrical Substations
+## Summary (in Portuguese)
 
-This project is a graphical editor designed for creating single-line diagrams of electrical substations. Its primary purpose is to help operators visualize the real-time status of circuit breakers and disconnect switches, enabling better decision-making during power system operations.
+Este projeto é um **editor gráfico** para representação do **diagrama unifilar de uma subestação de energia elétrica**.  
+O objetivo é permitir que os **operadores** **visualizem** o estado atual dos **disjuntores** e das **chaves seccionadoras**, auxiliando na **tomada de decisões** sobre a operação do sistema elétrico.  
 
-The editor generates diagrams used by a companion application (graphical viewer) for monitoring. This tool was deployed at the Regional Operation Center and System Operation Center of Light Serviços de Eletricidade S.A. (an electricity distribution company in Rio de Janeiro, Brazil) until the company's first SCADA system was implemented.
+Este repositório contém o **código-fonte do editor gráfico** utilizado para a elaboração dos diagramas.  
+Os diagramas gerados por este editor são utilizados por outro programa — um **visualizador gráfico** — para a apresentação das informações.  
 
-Developed in the 1990s using C Language (compiled with Borland Turbo C), the software featured a graphical interface running on MS-DOS, showcasing the technologies of that era.
+O sistema foi utilizado no **Centro de Operação Regional** e no **Centro de Operação do Sistema** da **Light Serviços de Eletricidade S.A.**, empresa distribuidora de energia do estado do Rio de Janeiro, **até a implantação do primeiro sistema SCADA da empresa**.  
+
+Foi desenvolvido na **década de 1990**, em **Linguagem C**, utilizando o **Turbo C da Borland**, e implementava uma **interface gráfica no sistema MS-DOS**.
